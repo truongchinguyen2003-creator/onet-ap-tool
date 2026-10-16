@@ -1,0 +1,16 @@
+{
+  "name": "apple-onet-tool",
+  "version": "1.0.0",
+  "description": "Apple iForgot password reset automation via Onet.pl email aliases",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "setup": "node setup.js",
+    "headless": "node main.js --headless"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
